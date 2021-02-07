@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.widget.TextView
+import android.widget.ImageView
 import java.util.*
 
 
@@ -24,6 +25,12 @@ class MainActivity : AppCompatActivity() {
         val nameTextView = findViewById<TextView>(R.id.nameTextView)
         val foodTextView = findViewById<TextView>(R.id.foodTextView)
         val verbTextView = findViewById<TextView>(R.id.verbTextView)
+        val choki = findViewById<ImageView>(R.id.choki)
+        val goo = findViewById<ImageView>(R.id.goo)
+        val paa = findViewById<ImageView>(R.id.paa)
+        val puipui = findViewById<ImageView>(R.id.puipui)
+
+
         nameTextView.text = name + "に"
 
         foodTextView.text = food[Random().nextInt(4)]+"を"

@@ -18,28 +18,28 @@
             android:orientation="horizontal">
 
             <ImageView
-                android:id="@+id/imageView"
+                android:id="@+id/choki"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 tools:srcCompat="@drawable/choki" />
 
             <ImageView
-                android:id="@+id/imageView2"
+                android:id="@+id/goo"
                 android:layout_width="wrap_content"
                 android:layout_height="175dp"
                 android:layout_weight="1"
                 tools:srcCompat="@drawable/goo" />
 
             <ImageView
-                android:id="@+id/imageView3"
+                android:id="@+id/paa"
                 android:layout_width="147dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 tools:srcCompat="@drawable/paa" />
 
             <ImageView
-                android:id="@+id/imageView4"
+                android:id="@+id/puipui"
                 style="s"
                 android:layout_width="202dp"
                 android:layout_height="184dp"
