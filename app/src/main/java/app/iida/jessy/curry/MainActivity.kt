@@ -3,9 +3,8 @@ package app.iida.jessy.curry
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
-import kotlin.random.Random
 import android.widget.TextView
-
+import java.util.*
 
 
 class MainActivity : AppCompatActivity() {
